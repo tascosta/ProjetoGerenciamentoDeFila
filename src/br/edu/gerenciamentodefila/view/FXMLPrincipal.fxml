@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="549.0" prefWidth="462.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.gerenciamentodefila.controller.FXMLPrincipalController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Label fx:id="lblEscolhaServico" layoutX="142.0" layoutY="26.0" text="Escolha  Serviço" textFill="#47525e">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnEncadernar" layoutX="77.0" layoutY="228.0" mnemonicParsing="false" onAction="#btnEncadernar" prefHeight="93.0" prefWidth="308.0" style="-fx-background-color: #00FA9A;" text="Encadernar" textFill="#47525e">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnImpressao" layoutX="77.0" layoutY="376.0" mnemonicParsing="false" onAction="#btnImpressao" prefHeight="93.0" prefWidth="308.0" style="-fx-background-color: #FF1493;" text="Impressão" textFill="#47525e">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="ImagemChamar" fitHeight="43.22614950151338" fitWidth="57.634864807128906" layoutX="219.0" layoutY="486.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image preserveRatio="false" smooth="false" url="@../../../../../../../../Desktop/gerenciamento%20fila/FilaBanco-master/FilaBanco-master/src/filabanco/img/braco.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnChamar" layoutX="150.0" layoutY="483.0" mnemonicParsing="false" onAction="#btnChamar" opacity="0.59" prefHeight="50.0" prefWidth="139.0" text="Mostrar Filas" textFill="#47525e">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <Button fx:id="btncopia" layoutX="78.0" layoutY="82.0" mnemonicParsing="false" onAction="#btncopia" prefHeight="93.0" prefWidth="308.0" style="-fx-background-color: #1E90FF;" text="Cópia" textFill="#47525e">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>
